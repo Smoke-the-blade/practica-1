@@ -24,7 +24,7 @@
     const obtenerImagenAleatoria = () => {
       const carpetaAleatoria = carpetas[Math.floor(Math.random() * carpetas.length)];
       const imagenAleatoria = imagenesPorCarpeta[Math.floor(Math.random() * imagenesPorCarpeta.length)];
-      return `images/${carpetaAleatoria}/${imagenAleatoria}`;
+      return `images/${encodeURIComponent(carpetaAleatoria)}/${encodeURIComponent(imagenAleatoria)}`;
     };
 
     boton.addEventListener("click", () => {
