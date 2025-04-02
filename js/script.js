@@ -22,7 +22,7 @@
       return;
     }
   
-    const carpetas = ["Aurelius Shadowcaster", "Darión", "Grimnar Khyber", "LuminusPiesligeros", "Morthos Tormento", "Mr. Maldito Cuervo", "Nus", "Sam el Lobo Malone", "Shokan Lograrn"];
+    const carpetas = ["Aurelius Shadowcaster/aurelius.JPEG","Aurelius Shadowcaster/Dorian.JPEG" "Darión", "Grimnar Khyber", "LuminusPiesligeros", "Morthos Tormento", "Mr. Maldito Cuervo", "Nus", "Sam el Lobo Malone", "Shokan Lograrn"];
     const imagenesPorCarpeta = ["Aurelius.JPEG", "Dorian.JPEG", "gran-biblioteca-2.JPEG", "gran-biblioteca.JPEG", "Liondria", "Darion Riverblood", "Amuleto del Rayo vivo 1", "Armadura de Guardia Electrica", "Armadura de Infiltracion Electrica", "Grimm"];
   
     const obtenerImagenAleatoria = () => {
